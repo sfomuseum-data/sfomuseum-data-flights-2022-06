@@ -2,10 +2,12 @@
   "id": 1779576339,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-01",
+    "date:cessation_upper": "2022-06-01",
     "date:inception_lower": "2022-06-01",
     "date:inception_upper": "2022-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-01",
+    "edtf:cessation": "2022-06-01T14:09:52-07:00",
+    "edtf:inception": "2022-06-01T22:50:00Z",
     "flysfo:actual_timestamp": 1654145820,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528817,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N855VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24645150"
+    },
     "wof:country": "US",
     "wof:created": 1654185946,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779576339,
     "wof:involves": [
+      1159292085,
       102527513,
       102528817,
       1159283813,
       1763588145
     ],
-    "wof:lastmodified": 1654185946,
+    "wof:lastmodified": 1654191792,
     "wof:name": "AS1080 (IAD-SFO)",
     "wof:parent_id": 1763588145,
     "wof:placetype": "custom",

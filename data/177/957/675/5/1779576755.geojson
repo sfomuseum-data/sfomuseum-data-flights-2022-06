@@ -2,10 +2,12 @@
   "id": 1779576755,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-01",
+    "date:cessation_upper": "2022-06-01",
     "date:inception_lower": "2022-06-01",
     "date:inception_upper": "2022-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-01",
+    "edtf:cessation": "2022-06-01T10:53:41-07:00",
+    "edtf:inception": "2022-06-01T23:19:00Z",
     "flysfo:actual_timestamp": 1654131480,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N106DU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24648873",
+      "swim:gufi": "KU80760401"
+    },
     "wof:country": "US",
     "wof:created": 1654186085,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779576755,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284261,
-      1763588255
+      1763588255,
+      1528104583,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1654186085,
+    "wof:lastmodified": 1654191778,
     "wof:name": "DL2276 (SLC-SFO)",
     "wof:parent_id": 1763588255,
     "wof:placetype": "custom",

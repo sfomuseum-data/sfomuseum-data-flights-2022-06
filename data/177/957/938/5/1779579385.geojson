@@ -2,10 +2,12 @@
   "id": 1779579385,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-01",
+    "date:cessation_upper": "2022-06-01",
     "date:inception_lower": "2022-06-01",
     "date:inception_upper": "2022-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-01",
+    "edtf:cessation": "2022-06-01T15:14:00Z",
+    "edtf:inception": "2022-06-01T13:55:00Z",
     "flysfo:actual_timestamp": 1654091100,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N260AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24595513"
+    },
     "wof:country": "US",
     "wof:created": 1654187096,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779579385,
     "wof:involves": [
+      1763588139,
+      1377564285,
       102532251,
       102527513,
-      1159283813,
-      1763588139
+      1159283813
     ],
-    "wof:lastmodified": 1654187096,
+    "wof:lastmodified": 1654191785,
     "wof:name": "AS270 (SFO-PDX)",
     "wof:parent_id": 1763588139,
     "wof:placetype": "custom",

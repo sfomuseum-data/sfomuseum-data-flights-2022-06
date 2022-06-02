@@ -2,10 +2,12 @@
   "id": 1779576827,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-01",
+    "date:cessation_upper": "2022-06-01",
     "date:inception_lower": "2022-06-01",
     "date:inception_upper": "2022-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-01",
+    "edtf:cessation": "2022-06-01T10:26:13-07:00",
+    "edtf:inception": "2022-06-01T18:10:00Z",
     "flysfo:actual_timestamp": 1654124400,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N668DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24619844"
+    },
     "wof:country": "US",
     "wof:created": 1654186104,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1779576827,
     "wof:involves": [
+      1159289939,
       102527513,
       102525635,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1654186104,
+    "wof:lastmodified": 1654191778,
     "wof:name": "DL8920 (DTW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
