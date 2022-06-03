@@ -2,10 +2,12 @@
   "id": 1779586397,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-02",
+    "date:cessation_upper": "2022-06-02",
     "date:inception_lower": "2022-06-02",
     "date:inception_upper": "2022-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-02",
+    "edtf:cessation": "2022-06-02T19:09:16Z",
+    "edtf:inception": "2022-06-02T09:36:00Z",
     "flysfo:actual_timestamp": 1654161180,
     "flysfo:airline": "NH",
     "flysfo:date": "2022-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102541591,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "JA784A",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24670948"
+    },
     "wof:country": "US",
     "wof:created": 1654273098,
     "wof:geomhash": "64252c90f74b3e5d6a354a131140ee76",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779586397,
     "wof:involves": [
+      1159289993,
       102541591,
       102527513,
       1159283875,
       1763588465
     ],
-    "wof:lastmodified": 1654273098,
+    "wof:lastmodified": 1654273754,
     "wof:name": "NH107 (SFO-HND)",
     "wof:parent_id": 1763588465,
     "wof:placetype": "custom",

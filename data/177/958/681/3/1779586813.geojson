@@ -2,10 +2,12 @@
   "id": 1779586813,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-02",
+    "date:cessation_upper": "2022-06-02",
     "date:inception_lower": "2022-06-02",
     "date:inception_upper": "2022-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-02",
+    "edtf:cessation": "2022-06-02T03:46:00Z",
+    "edtf:inception": "2022-06-02T02:17:00Z",
     "flysfo:actual_timestamp": 1654220160,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N928VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24658276"
+    },
     "wof:country": "US",
     "wof:created": 1654273202,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779586813,
     "wof:involves": [
-      102533269,
-      102527513,
       1159283813,
-      1763588143
+      1763588143,
+      1377564297,
+      102533269,
+      102527513
     ],
-    "wof:lastmodified": 1654273202,
+    "wof:lastmodified": 1654273754,
     "wof:name": "AS1304 (SFO-SEA)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",
