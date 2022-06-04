@@ -2,10 +2,12 @@
   "id": 1779596985,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-03",
-    "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "date:cessation_lower": "2022-06-04",
+    "date:cessation_upper": "2022-06-04",
+    "date:inception_lower": "2022-06-04",
+    "date:inception_upper": "2022-06-04",
+    "edtf:cessation": "2022-06-04T10:31:00Z",
+    "edtf:inception": "2022-06-03T17:23:32-07:00",
     "flysfo:actual_timestamp": 1654297200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37510",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO17223700"
+    },
     "wof:country": "US",
     "wof:created": 1654360001,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779596985,
     "wof:involves": [
+      1763588321,
+      1528104577,
       102521851,
       102527513,
-      1159285413,
-      1763588321
+      1159285413
     ],
-    "wof:lastmodified": 1654360001,
+    "wof:lastmodified": 1654360157,
     "wof:name": "UA1646 (SFO-AUS)",
     "wof:parent_id": 1763588321,
     "wof:placetype": "custom",

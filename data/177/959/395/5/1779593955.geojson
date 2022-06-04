@@ -2,10 +2,12 @@
   "id": 1779593955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-03",
+    "date:cessation_upper": "2022-06-03",
     "date:inception_lower": "2022-06-03",
     "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "edtf:cessation": "2022-06-03T11:51:41-07:00",
+    "edtf:inception": "2022-06-03T23:48:00Z",
     "flysfo:actual_timestamp": 1654307760,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.6967075,
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530815,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N462UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24848652",
+      "swim:gufi": "KU80232600"
+    },
     "wof:country": "US",
     "wof:created": 1654359243,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779593955,
     "wof:involves": [
+      1159292085,
       102527513,
       102530815,
       1159285413,
       1763588283
     ],
-    "wof:lastmodified": 1654359243,
+    "wof:lastmodified": 1654360150,
     "wof:name": "UA229 (BZN-SFO)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",

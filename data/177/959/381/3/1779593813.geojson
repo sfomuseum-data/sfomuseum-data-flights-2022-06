@@ -2,10 +2,12 @@
   "id": 1779593813,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-03",
-    "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "date:cessation_lower": "2022-06-03",
+    "date:cessation_upper": "2022-06-03",
+    "date:inception_lower": "2022-06-04",
+    "date:inception_upper": "2022-06-04",
+    "edtf:cessation": "2022-06-03T14:14:02-07:00",
+    "edtf:inception": "2022-06-04T00:04:00Z",
     "flysfo:actual_timestamp": 1654316220,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77542",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24846789",
+      "swim:gufi": "KS08657700"
+    },
     "wof:country": "US",
     "wof:created": 1654359207,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779593813,
     "wof:involves": [
+      1159289871,
       102527513,
       102531979,
       1159285413,
       1763588159
     ],
-    "wof:lastmodified": 1654359207,
+    "wof:lastmodified": 1654360150,
     "wof:name": "UA1494 (ANC-SFO)",
     "wof:parent_id": 1763588159,
     "wof:placetype": "custom",

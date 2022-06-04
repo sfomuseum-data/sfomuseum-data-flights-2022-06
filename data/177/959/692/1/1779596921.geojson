@@ -2,10 +2,12 @@
   "id": 1779596921,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-03",
+    "date:cessation_upper": "2022-06-03",
     "date:inception_lower": "2022-06-03",
     "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "edtf:cessation": "2022-06-03T19:03:19Z",
+    "edtf:inception": "2022-06-03T16:27:00Z",
     "flysfo:actual_timestamp": 1654271820,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N429UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24802397",
+      "swim:gufi": "KO52980600"
+    },
     "wof:country": "US",
     "wof:created": 1654359984,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -84,9 +98,10 @@
       102536441,
       102527513,
       1159285413,
-      1763588447
+      1763588447,
+      1159292085
     ],
-    "wof:lastmodified": 1654359984,
+    "wof:lastmodified": 1654360166,
     "wof:name": "UA1189 (SFO-SJD)",
     "wof:parent_id": 1763588447,
     "wof:placetype": "custom",

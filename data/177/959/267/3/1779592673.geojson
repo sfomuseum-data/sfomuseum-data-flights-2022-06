@@ -2,10 +2,12 @@
   "id": 1779592673,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-03",
-    "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "date:cessation_lower": "2022-06-03",
+    "date:cessation_upper": "2022-06-03",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-06-03T16:01:55-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1654323120,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526927,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N555NW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779592673,
     "wof:involves": [
-      102527513,
-      102526927,
       1159284261,
-      1763588243
+      1763588243,
+      1159289939,
+      102527513,
+      102526927
     ],
-    "wof:lastmodified": 1654358909,
+    "wof:lastmodified": 1654360162,
     "wof:name": "DL2645 (ATL-SFO)",
     "wof:parent_id": 1763588243,
     "wof:placetype": "custom",

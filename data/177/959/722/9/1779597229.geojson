@@ -2,10 +2,12 @@
   "id": 1779597229,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-03",
+    "date:cessation_upper": "2022-06-03",
     "date:inception_lower": "2022-06-03",
     "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "edtf:cessation": "2022-06-03T21:15:00Z",
+    "edtf:inception": "2022-06-03T16:18:00Z",
     "flysfo:actual_timestamp": 1654271760,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N13113",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24801680",
+      "swim:gufi": "KO51856600"
+    },
     "wof:country": "US",
     "wof:created": 1654360062,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779597229,
     "wof:involves": [
+      1159289939,
       102534365,
       102527513,
       1159285413,
       1763588315
     ],
-    "wof:lastmodified": 1654360062,
+    "wof:lastmodified": 1654360159,
     "wof:name": "UA520 (SFO-JFK)",
     "wof:parent_id": 1763588315,
     "wof:placetype": "custom",

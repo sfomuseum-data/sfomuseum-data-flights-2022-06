@@ -2,10 +2,12 @@
   "id": 1779595769,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-04",
+    "date:cessation_upper": "2022-06-04",
     "date:inception_lower": "2022-06-03",
     "date:inception_upper": "2022-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-03",
+    "edtf:cessation": "2022-06-04T10:30:49Z",
+    "edtf:inception": "2022-06-03T06:28:00Z",
     "flysfo:actual_timestamp": 1654319880,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N502DX",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24763587",
+      "swim:gufi": "KO16566700"
+    },
     "wof:country": "US",
     "wof:created": 1654359697,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779595769,
     "wof:involves": [
+      1377564297,
       102530741,
       102527513,
       1159284261,
       1763588237
     ],
-    "wof:lastmodified": 1654359697,
+    "wof:lastmodified": 1654360155,
     "wof:name": "DL374 (SFO-BOS)",
     "wof:parent_id": 1763588237,
     "wof:placetype": "custom",
