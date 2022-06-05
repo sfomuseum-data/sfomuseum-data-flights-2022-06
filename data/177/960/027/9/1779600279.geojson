@@ -2,10 +2,12 @@
   "id": 1779600279,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-04",
-    "date:inception_upper": "2022-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-04",
+    "date:cessation_lower": "2022-06-04",
+    "date:cessation_upper": "2022-06-04",
+    "date:inception_lower": "2022-06-05",
+    "date:inception_upper": "2022-06-05",
+    "edtf:cessation": "2022-06-04T16:34:01-07:00",
+    "edtf:inception": "2022-06-05T00:34:00Z",
     "flysfo:actual_timestamp": 1654383600,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N900PC",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KN83463701"
+    },
     "wof:country": "US",
     "wof:created": 1654445287,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1779600279,
     "wof:involves": [
+      1159289939,
       102527513,
       102534365,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1654445287,
+    "wof:lastmodified": 1654446436,
     "wof:name": "DL8850 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

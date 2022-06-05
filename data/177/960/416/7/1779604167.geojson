@@ -2,10 +2,12 @@
   "id": 1779604167,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-05",
+    "date:cessation_upper": "2022-06-05",
     "date:inception_lower": "2022-06-04",
     "date:inception_upper": "2022-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-04",
+    "edtf:cessation": "2022-06-05T06:43:00Z",
+    "edtf:inception": "2022-06-04T16:13:09-07:00",
     "flysfo:actual_timestamp": 1654408320,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N36476",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24864100",
+      "swim:gufi": "KO07638100"
+    },
     "wof:country": "US",
     "wof:created": 1654446265,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779604167,
     "wof:involves": [
-      102525535,
       102527513,
       1159285413,
-      1763588337
+      1763588337,
+      1377564285,
+      102525535
     ],
-    "wof:lastmodified": 1654446265,
+    "wof:lastmodified": 1654446445,
     "wof:name": "UA1001 (SFO-RNO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

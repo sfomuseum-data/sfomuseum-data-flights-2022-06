@@ -2,10 +2,12 @@
   "id": 1779599165,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-04",
-    "date:inception_upper": "2022-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-04",
+    "date:cessation_lower": "2022-06-04",
+    "date:cessation_upper": "2022-06-04",
+    "date:inception_lower": "2022-06-05",
+    "date:inception_upper": "2022-06-05",
+    "edtf:cessation": "2022-06-04T15:38:50-07:00",
+    "edtf:inception": "2022-06-05T03:35:00Z",
     "flysfo:actual_timestamp": 1654407900,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEKZ",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24861026"
+    },
     "wof:country": "US",
     "wof:created": 1654445000,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779599165,
     "wof:involves": [
+      1763588249,
+      1528104575,
       102527513,
       102555307,
-      1159283597,
-      1763588249
+      1159283597
     ],
-    "wof:lastmodified": 1654445000,
+    "wof:lastmodified": 1654446437,
     "wof:name": "AC568 (YVR-SFO)",
     "wof:parent_id": 1763588249,
     "wof:placetype": "custom",

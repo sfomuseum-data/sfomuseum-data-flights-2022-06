@@ -2,10 +2,12 @@
   "id": 1779603447,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-04",
+    "date:cessation_upper": "2022-06-04",
     "date:inception_lower": "2022-06-04",
     "date:inception_upper": "2022-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-04",
+    "edtf:cessation": "2022-06-04T21:37:01Z",
+    "edtf:inception": "2022-06-04T16:33:00Z",
     "flysfo:actual_timestamp": 1654359180,
     "flysfo:airline": "HA",
     "flysfo:date": "2022-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
+    "icao:aircraft": "A332",
     "icao:airline": "HAL",
     "lbl:latitude": 37.611565,
     "lbl:longitude": -122.389912,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N370HA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "24901147"
+    },
     "wof:country": "US",
     "wof:created": 1654446087,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -84,9 +97,10 @@
       102533997,
       102527513,
       1159284489,
-      1763588429
+      1763588429,
+      1159289421
     ],
-    "wof:lastmodified": 1654446087,
+    "wof:lastmodified": 1654446443,
     "wof:name": "HA11 (SFO-HNL)",
     "wof:parent_id": 1763588429,
     "wof:placetype": "custom",
