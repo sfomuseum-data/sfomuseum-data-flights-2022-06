@@ -2,10 +2,12 @@
   "id": 1779608659,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-05",
-    "date:inception_upper": "2022-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-05",
+    "date:cessation_lower": "2022-06-05",
+    "date:cessation_upper": "2022-06-05",
+    "date:inception_lower": "2022-06-06",
+    "date:inception_upper": "2022-06-06",
+    "edtf:cessation": "2022-06-05T14:42:56-07:00",
+    "edtf:inception": "2022-06-06T01:17:00Z",
     "flysfo:actual_timestamp": 1654490760,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528541,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N837UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KF82824100"
+    },
     "wof:country": "US",
     "wof:created": 1654532011,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779608659,
     "wof:involves": [
+      1159289407,
       102527513,
       102528541,
       1159285413,
       1763588357
     ],
-    "wof:lastmodified": 1654532011,
+    "wof:lastmodified": 1654532989,
     "wof:name": "UA2005 (DFW-SFO)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",

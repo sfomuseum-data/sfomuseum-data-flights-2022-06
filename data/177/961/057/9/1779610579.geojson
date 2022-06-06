@@ -2,10 +2,12 @@
   "id": 1779610579,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-06",
+    "date:cessation_upper": "2022-06-06",
     "date:inception_lower": "2022-06-05",
     "date:inception_upper": "2022-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-05",
+    "edtf:cessation": "2022-06-06T09:40:00Z",
+    "edtf:inception": "2022-06-05T14:55:10-07:00",
     "flysfo:actual_timestamp": 1654470000,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.039582499999995,
     "geom:longitude": -96.82987,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526195,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N900PC",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO13987200"
+    },
     "wof:country": "US",
     "wof:created": 1654532504,
     "wof:geomhash": "2d236684e8bc29d45026e0f1300dce59",
@@ -48,9 +61,9 @@
       102526195,
       102527513,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1654532504,
+    "wof:lastmodified": 1654532975,
     "wof:name": "DL8920 (SFO-BED)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

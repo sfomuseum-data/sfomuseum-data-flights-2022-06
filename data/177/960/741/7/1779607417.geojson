@@ -2,10 +2,12 @@
   "id": 1779607417,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-05",
-    "date:inception_upper": "2022-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-05",
+    "date:cessation_lower": "2022-06-05",
+    "date:cessation_upper": "2022-06-05",
+    "date:inception_lower": "2022-06-06",
+    "date:inception_upper": "2022-06-06",
+    "edtf:cessation": "2022-06-05T06:43:00Z",
+    "edtf:inception": "2022-06-06T05:13:00Z",
     "flysfo:actual_timestamp": 1654470000,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N134DU",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "24954459",
+      "swim:gufi": "KU15001200"
+    },
     "wof:country": "US",
     "wof:created": 1654531673,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -48,9 +62,9 @@
       102527513,
       102527363,
       1159284261,
-      -1
+      1528104583
     ],
-    "wof:lastmodified": 1654531673,
+    "wof:lastmodified": 1654532979,
     "wof:name": "DL2104 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
