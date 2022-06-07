@@ -2,10 +2,12 @@
   "id": 1779615731,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-06",
+    "date:cessation_upper": "2022-06-06",
     "date:inception_lower": "2022-06-06",
     "date:inception_upper": "2022-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-06",
+    "edtf:cessation": "2022-06-06T21:50:56Z",
+    "edtf:inception": "2022-06-06T10:10:45Z",
     "flysfo:actual_timestamp": 1654555740,
     "flysfo:airline": "IB",
     "flysfo:date": "2022-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.047534,
     "geom:longitude": -62.966477499999996,
     "iata:airline": "IB",
+    "icao:aircraft": "A332",
     "icao:airline": "IBE",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284511,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102545773,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25044456"
+    },
     "wof:country": "US",
     "wof:created": 1654618158,
     "wof:geomhash": "e381de006a7d8b2da90b8f820c28ec9b",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779615731,
     "wof:involves": [
-      102527513,
-      102545773,
       1159284511,
-      1763588419
+      1763588419,
+      1159289421,
+      102527513,
+      102545773
     ],
-    "wof:lastmodified": 1654618158,
+    "wof:lastmodified": 1654619307,
     "wof:name": "IB6193 (MAD-SFO)",
     "wof:parent_id": 1763588419,
     "wof:placetype": "custom",

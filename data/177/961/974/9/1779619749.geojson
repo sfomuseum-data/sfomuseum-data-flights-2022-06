@@ -2,10 +2,12 @@
   "id": 1779619749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-06",
+    "date:cessation_upper": "2022-06-06",
     "date:inception_lower": "2022-06-06",
     "date:inception_upper": "2022-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-06",
+    "edtf:cessation": "2022-06-06T03:35:02Z",
+    "edtf:inception": "2022-06-06T02:32:00Z",
     "flysfo:actual_timestamp": 1654565040,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-06",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25033152"
+    },
     "wof:country": "US",
     "wof:created": 1654619180,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -86,7 +91,7 @@
       1159285413,
       1763588357
     ],
-    "wof:lastmodified": 1654619180,
+    "wof:lastmodified": 1654619303,
     "wof:name": "UA2385 (SFO-SNA)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",

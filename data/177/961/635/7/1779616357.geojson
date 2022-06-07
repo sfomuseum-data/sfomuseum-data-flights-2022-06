@@ -2,10 +2,12 @@
   "id": 1779616357,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-06",
+    "date:cessation_upper": "2022-06-06",
     "date:inception_lower": "2022-06-06",
     "date:inception_upper": "2022-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-06",
+    "edtf:cessation": "2022-06-06T01:00:25Z",
+    "edtf:inception": "2022-06-06T00:08:00Z",
     "flysfo:actual_timestamp": 1654556400,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-06-06",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25022124"
+    },
     "wof:country": "US",
     "wof:created": 1654618316,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -86,7 +91,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1654618316,
+    "wof:lastmodified": 1654619293,
     "wof:name": "WN2840 (BUR-SFO)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",

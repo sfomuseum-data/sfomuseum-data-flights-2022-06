@@ -2,10 +2,12 @@
   "id": 1779619835,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-06",
-    "date:inception_upper": "2022-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-06",
+    "date:cessation_lower": "2022-06-07",
+    "date:cessation_upper": "2022-06-07",
+    "date:inception_lower": "2022-06-07",
+    "date:inception_upper": "2022-06-07",
+    "edtf:cessation": "2022-06-07T11:25:00Z",
+    "edtf:inception": "2022-06-06T18:22:19-07:00",
     "flysfo:actual_timestamp": 1654556400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N212UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25039371",
+      "swim:gufi": "KO18097300"
+    },
     "wof:country": "US",
     "wof:created": 1654619202,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779619835,
     "wof:involves": [
+      1763588309,
+      1159289985,
       102534097,
       102527513,
-      1159285413,
-      1763588309
+      1159285413
     ],
-    "wof:lastmodified": 1654619202,
+    "wof:lastmodified": 1654619303,
     "wof:name": "UA505 (SFO-IAH)",
     "wof:parent_id": 1763588309,
     "wof:placetype": "custom",
