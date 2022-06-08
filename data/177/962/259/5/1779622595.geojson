@@ -2,10 +2,12 @@
   "id": 1779622595,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-07",
+    "date:cessation_upper": "2022-06-07",
     "date:inception_lower": "2022-06-07",
     "date:inception_upper": "2022-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-07",
+    "edtf:cessation": "2022-06-07T03:31:05-07:00",
+    "edtf:inception": "2022-06-07T16:10:00Z",
     "flysfo:actual_timestamp": 1654624980,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N854VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25158993"
+    },
     "wof:country": "US",
     "wof:created": 1654704404,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779622595,
     "wof:involves": [
+      1763588131,
+      1159292085,
       102527513,
       102532251,
-      1159283813,
-      1763588131
+      1159283813
     ],
-    "wof:lastmodified": 1654704404,
+    "wof:lastmodified": 1654705753,
     "wof:name": "AS206 (PDX-SFO)",
     "wof:parent_id": 1763588131,
     "wof:placetype": "custom",
