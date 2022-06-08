@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1654542000,
     "flysfo:timestamp": 1654556400,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,-83.788760,39.432410",
+    "geom:latitude": 38.5252,
+    "geom:longitude": -103.07985149999999,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102529207,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220606-D-UAL-2719",
     "sfomuseum:flight_number": [
@@ -37,7 +37,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1654619190,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "a8754e69982d8fecbd04a6762dc26e8f",
     "wof:hierarchy": [
       {
         "flight_id": 1779619789
@@ -50,7 +50,7 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1654619190,
+    "wof:lastmodified": 1654710394,
     "wof:name": "UA2719 (SFO-ILN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -61,9 +61,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    -83.78876,
+    39.43241
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-83.78876,39.43241]],"type":"MultiPoint"}
 }
