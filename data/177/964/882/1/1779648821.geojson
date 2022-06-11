@@ -2,10 +2,12 @@
   "id": 1779648821,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-10",
-    "date:inception_upper": "2022-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-10",
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
+    "date:inception_lower": "2022-06-11",
+    "date:inception_upper": "2022-06-11",
+    "edtf:cessation": "2022-06-11T11:25:23Z",
+    "edtf:inception": "2022-06-11T06:38:00Z",
     "flysfo:actual_timestamp": 1654928400,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N930VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25414627"
+    },
     "wof:country": "US",
     "wof:created": 1654964407,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779648821,
     "wof:involves": [
-      102534365,
       102527513,
       1159283813,
-      1763588131
+      1763588131,
+      1377564297,
+      102534365
     ],
-    "wof:lastmodified": 1654964407,
+    "wof:lastmodified": 1654964948,
     "wof:name": "AS72 (SFO-JFK)",
     "wof:parent_id": 1763588131,
     "wof:placetype": "custom",

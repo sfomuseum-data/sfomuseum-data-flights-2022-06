@@ -2,10 +2,12 @@
   "id": 1779650509,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-10",
+    "date:cessation_upper": "2022-06-10",
     "date:inception_lower": "2022-06-10",
     "date:inception_upper": "2022-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-10",
+    "edtf:cessation": "2022-06-10T16:27:00Z",
+    "edtf:inception": "2022-06-10T12:46:00Z",
     "flysfo:actual_timestamp": 1654863900,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N457UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25430274",
+      "swim:gufi": "KO35972600"
+    },
     "wof:country": "US",
     "wof:created": 1654964831,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779650509,
     "wof:involves": [
-      102533631,
       102527513,
       1159285413,
-      1763588311
+      1763588311,
+      1159292085,
+      102533631
     ],
-    "wof:lastmodified": 1654964831,
+    "wof:lastmodified": 1654964933,
     "wof:name": "UA452 (SFO-ORD)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

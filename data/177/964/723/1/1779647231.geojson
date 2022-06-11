@@ -2,10 +2,12 @@
   "id": 1779647231,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-10",
-    "date:inception_upper": "2022-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-10",
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
+    "date:inception_lower": "2022-06-11",
+    "date:inception_upper": "2022-06-11",
+    "edtf:cessation": "2022-06-11T04:14:00Z",
+    "edtf:inception": "2022-06-11T02:59:00Z",
     "flysfo:actual_timestamp": 1654921140,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25406164",
+      "swim:gufi": "KS01296700"
+    },
     "wof:country": "US",
     "wof:created": 1654964004,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779647231,
     "wof:involves": [
+      1159292085,
       102527513,
       102530507,
       1159285413,
       1763588329
     ],
-    "wof:lastmodified": 1654964004,
+    "wof:lastmodified": 1654964945,
     "wof:name": "UA2236 (RDM-SFO)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",

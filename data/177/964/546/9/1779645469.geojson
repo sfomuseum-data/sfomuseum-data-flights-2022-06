@@ -2,10 +2,12 @@
   "id": 1779645469,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-10",
     "date:inception_upper": "2022-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-10",
+    "edtf:cessation": "2022-06-11T02:10:43Z",
+    "edtf:inception": "2022-06-10T21:51:00Z",
     "flysfo:actual_timestamp": 1654913580,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N558AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25486704"
+    },
     "wof:country": "US",
     "wof:created": 1654963555,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779645469,
     "wof:involves": [
-      102527513,
-      102531979,
       1159283813,
-      1763588149
+      1763588149,
+      1159289871,
+      102527513,
+      102531979
     ],
-    "wof:lastmodified": 1654963555,
+    "wof:lastmodified": 1654964934,
     "wof:name": "AS1038 (ANC-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",
