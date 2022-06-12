@@ -2,10 +2,12 @@
   "id": 1779653505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T18:47:00Z",
+    "edtf:inception": "2022-06-11T17:53:00Z",
     "flysfo:actual_timestamp": 1654975440,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-11",
@@ -21,6 +23,7 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS3",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
@@ -34,6 +37,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N307DU",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25560039",
+      "swim:gufi": "KL60060700"
+    },
     "wof:country": "US",
     "wof:created": 1655050073,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -86,7 +98,7 @@
       1159284261,
       1763588245
     ],
-    "wof:lastmodified": 1655050073,
+    "wof:lastmodified": 1655051248,
     "wof:name": "DL2992 (LAX-SFO)",
     "wof:parent_id": 1763588245,
     "wof:placetype": "custom",

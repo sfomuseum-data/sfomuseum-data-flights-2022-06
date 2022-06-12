@@ -2,10 +2,12 @@
   "id": 1779654725,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T16:02:00Z",
+    "edtf:inception": "2022-06-11T12:55:00Z",
     "flysfo:actual_timestamp": 1654963560,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528541,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N817UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25529984",
+      "swim:gufi": "KF35996700"
+    },
     "wof:country": "US",
     "wof:created": 1655050386,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779654725,
     "wof:involves": [
+      1159289407,
       102527513,
       102528541,
       1159285413,
       1763588149
     ],
-    "wof:lastmodified": 1655050386,
+    "wof:lastmodified": 1655051251,
     "wof:name": "UA2371 (DFW-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",

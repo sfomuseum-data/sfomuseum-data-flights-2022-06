@@ -2,10 +2,12 @@
   "id": 1779655171,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-12",
+    "date:cessation_upper": "2022-06-12",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-12T11:48:00Z",
+    "edtf:inception": "2022-06-11T16:45:22-07:00",
     "flysfo:actual_timestamp": 1655015280,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N303RE",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25514473",
+      "swim:gufi": "KO17999100"
+    },
     "wof:country": "US",
     "wof:created": 1655050499,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -84,9 +98,10 @@
       102531023,
       102527513,
       1159283849,
-      1763588209
+      1763588209,
+      1528104575
     ],
-    "wof:lastmodified": 1655050499,
+    "wof:lastmodified": 1655051263,
     "wof:name": "AA2421 (SFO-MIA)",
     "wof:parent_id": 1763588209,
     "wof:placetype": "custom",

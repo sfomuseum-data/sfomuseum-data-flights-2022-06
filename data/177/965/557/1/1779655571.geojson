@@ -2,10 +2,12 @@
   "id": 1779655571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T21:14:59Z",
+    "edtf:inception": "2022-06-11T16:30:00Z",
     "flysfo:actual_timestamp": 1654963920,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.539997,
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102554351,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "CGEHQ",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +53,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25549166"
+    },
     "wof:country": "US",
     "wof:created": 1655050600,
     "wof:geomhash": "60b8ec845b4af47518c8aaafc3d98633",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779655571,
     "wof:involves": [
+      1528104575,
       102554351,
       102527513,
       1159283597,
       1763588153
     ],
-    "wof:lastmodified": 1655050600,
+    "wof:lastmodified": 1655051263,
     "wof:name": "AC758 (SFO-YUL)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",

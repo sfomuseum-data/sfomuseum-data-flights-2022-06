@@ -2,10 +2,12 @@
   "id": 1779656455,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T22:11:00Z",
+    "edtf:inception": "2022-06-11T20:54:00Z",
     "flysfo:actual_timestamp": 1654979520,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N322NB",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25577704",
+      "swim:gufi": "KO70839702"
+    },
     "wof:country": "US",
     "wof:created": 1655050821,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779656455,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
       1159284261,
       1763588255
     ],
-    "wof:lastmodified": 1655050821,
+    "wof:lastmodified": 1655051254,
     "wof:name": "DL1317 (SFO-SLC)",
     "wof:parent_id": 1763588255,
     "wof:placetype": "custom",

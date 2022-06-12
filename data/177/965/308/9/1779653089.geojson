@@ -2,10 +2,12 @@
   "id": 1779653089,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T16:32:31Z",
+    "edtf:inception": "2022-06-11T15:36:00Z",
     "flysfo:actual_timestamp": 1654965420,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N472AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25544790"
+    },
     "wof:country": "US",
     "wof:created": 1655049969,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779653089,
     "wof:involves": [
+      1377564285,
       102527513,
       102533795,
       1159283813,
       1763588147
     ],
-    "wof:lastmodified": 1655049969,
+    "wof:lastmodified": 1655051261,
     "wof:name": "AS204 (LAX-SFO)",
     "wof:parent_id": 1763588147,
     "wof:placetype": "custom",

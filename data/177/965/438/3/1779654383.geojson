@@ -2,10 +2,12 @@
   "id": 1779654383,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T07:14:00Z",
+    "edtf:inception": "2022-06-11T05:04:00Z",
     "flysfo:actual_timestamp": 1654931940,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-06-11",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25512046"
+    },
     "wof:country": "US",
     "wof:created": 1655050295,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285591,
       1763588193
     ],
-    "wof:lastmodified": 1655050295,
+    "wof:lastmodified": 1655051249,
     "wof:name": "WN1054 (DEN-SFO)",
     "wof:parent_id": 1763588193,
     "wof:placetype": "custom",

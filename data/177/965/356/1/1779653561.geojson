@@ -2,10 +2,12 @@
   "id": 1779653561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-11",
+    "date:cessation_upper": "2022-06-11",
     "date:inception_lower": "2022-06-11",
     "date:inception_upper": "2022-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-11",
+    "edtf:cessation": "2022-06-11T22:48:00Z",
+    "edtf:inception": "2022-06-11T16:58:00Z",
     "flysfo:actual_timestamp": 1654988400,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.039582499999995,
     "geom:longitude": -96.82987,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526195,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N663DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "25553095",
+      "swim:gufi": "KB54667700"
+    },
     "wof:country": "US",
     "wof:created": 1655050087,
     "wof:geomhash": "de3b03e8b66f5797c35a3de70085ba94",
@@ -48,9 +61,9 @@
       102527513,
       102526195,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1655050087,
+    "wof:lastmodified": 1655051261,
     "wof:name": "DL8919 (BED-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
