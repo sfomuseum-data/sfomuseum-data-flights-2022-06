@@ -2,10 +2,12 @@
   "id": 1779665505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-12",
+    "date:cessation_upper": "2022-06-12",
     "date:inception_lower": "2022-06-12",
     "date:inception_upper": "2022-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-12",
+    "edtf:cessation": "2022-06-12T17:42:00Z",
+    "edtf:inception": "2022-06-12T16:28:00Z",
     "flysfo:actual_timestamp": 1655050020,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N38257",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25638924",
+      "swim:gufi": "KO50326100"
+    },
     "wof:country": "US",
     "wof:created": 1655137691,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779665505,
     "wof:involves": [
+      1159289871,
       102527363,
       102527513,
       1159285413,
       1763588353
     ],
-    "wof:lastmodified": 1655137691,
+    "wof:lastmodified": 1655137768,
     "wof:name": "UA682 (SFO-SLC)",
     "wof:parent_id": 1763588353,
     "wof:placetype": "custom",
