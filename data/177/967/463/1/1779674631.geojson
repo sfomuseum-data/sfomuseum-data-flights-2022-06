@@ -2,10 +2,12 @@
   "id": 1779674631,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-13",
+    "date:cessation_upper": "2022-06-13",
     "date:inception_lower": "2022-06-13",
     "date:inception_upper": "2022-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-13",
+    "edtf:cessation": "2022-06-13T07:15:00Z",
+    "edtf:inception": "2022-06-13T06:21:00Z",
     "flysfo:actual_timestamp": 1655186220,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -48,6 +52,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25692264",
+      "swim:gufi": "KO12316200"
+    },
     "wof:country": "US",
     "wof:created": 1655224031,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1779674631,
     "wof:involves": [
+      1159292085,
       102533575,
       102527513,
       1159285413,
       1763588351
     ],
-    "wof:lastmodified": 1655224031,
+    "wof:lastmodified": 1655224161,
     "wof:name": "UA2400 (SFO-ONT)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",

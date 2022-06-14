@@ -2,10 +2,12 @@
   "id": 1779674573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-13",
+    "date:cessation_upper": "2022-06-13",
     "date:inception_lower": "2022-06-13",
     "date:inception_upper": "2022-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-13",
+    "edtf:cessation": "2022-06-13T10:55:45Z",
+    "edtf:inception": "2022-06-13T06:06:00Z",
     "flysfo:actual_timestamp": 1655161200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-13",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25692031"
+    },
     "wof:country": "US",
     "wof:created": 1655224015,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -86,7 +91,7 @@
       1159285413,
       1763588325
     ],
-    "wof:lastmodified": 1655224015,
+    "wof:lastmodified": 1655224173,
     "wof:name": "UA2059 (SFO-EWR)",
     "wof:parent_id": 1763588325,
     "wof:placetype": "custom",
