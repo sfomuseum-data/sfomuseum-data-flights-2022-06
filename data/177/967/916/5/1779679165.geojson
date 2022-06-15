@@ -2,10 +2,12 @@
   "id": 1779679165,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-15",
+    "date:cessation_upper": "2022-06-15",
     "date:inception_lower": "2022-06-14",
     "date:inception_upper": "2022-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-14",
+    "edtf:cessation": "2022-06-15T04:48:00Z",
+    "edtf:inception": "2022-06-14T22:41:00Z",
     "flysfo:actual_timestamp": 1655268720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-14",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25844183"
+    },
     "wof:country": "US",
     "wof:created": 1655309668,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -86,7 +91,7 @@
       1159285413,
       1763588311
     ],
-    "wof:lastmodified": 1655309668,
+    "wof:lastmodified": 1655310614,
     "wof:name": "UA2400 (BOS-SFO)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

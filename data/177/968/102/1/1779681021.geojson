@@ -2,10 +2,12 @@
   "id": 1779681021,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-15",
+    "date:cessation_upper": "2022-06-15",
     "date:inception_lower": "2022-06-14",
     "date:inception_upper": "2022-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-14",
+    "edtf:cessation": "2022-06-15T02:53:32Z",
+    "edtf:inception": "2022-06-14T22:14:00Z",
     "flysfo:actual_timestamp": 1655244240,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N171DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25842569",
+      "swim:gufi": "KO76630300"
+    },
     "wof:country": "US",
     "wof:created": 1655310139,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779681021,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1763588247
     ],
-    "wof:lastmodified": 1655310139,
+    "wof:lastmodified": 1655310601,
     "wof:name": "DL356 (SFO-JFK)",
     "wof:parent_id": 1763588247,
     "wof:placetype": "custom",

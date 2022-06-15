@@ -2,10 +2,12 @@
   "id": 1779679415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-14",
+    "date:cessation_upper": "2022-06-14",
     "date:inception_lower": "2022-06-14",
     "date:inception_upper": "2022-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-14",
+    "edtf:cessation": "2022-06-14T17:47:00Z",
+    "edtf:inception": "2022-06-14T13:15:00Z",
     "flysfo:actual_timestamp": 1655229000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N824UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25795101"
+    },
     "wof:country": "US",
     "wof:created": 1655309732,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779679415,
     "wof:involves": [
+      1763588443,
+      1159289407,
       102527513,
       102536579,
-      1159285413,
-      1763588443
+      1159285413
     ],
-    "wof:lastmodified": 1655309732,
+    "wof:lastmodified": 1655310617,
     "wof:name": "UA718 (MEX-SFO)",
     "wof:parent_id": 1763588443,
     "wof:placetype": "custom",

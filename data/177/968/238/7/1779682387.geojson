@@ -2,10 +2,12 @@
   "id": 1779682387,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-14",
+    "date:cessation_upper": "2022-06-14",
     "date:inception_lower": "2022-06-14",
     "date:inception_upper": "2022-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-14",
+    "edtf:cessation": "2022-06-14T15:37:31Z",
+    "edtf:inception": "2022-06-14T14:00:00Z",
     "flysfo:actual_timestamp": 1655214180,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N468UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25795134"
+    },
     "wof:country": "US",
     "wof:created": 1655310490,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,9 +97,10 @@
       102533269,
       102527513,
       1159285413,
-      1763588329
+      1763588329,
+      1159292085
     ],
-    "wof:lastmodified": 1655310490,
+    "wof:lastmodified": 1655310611,
     "wof:name": "UA338 (SFO-SEA)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",
