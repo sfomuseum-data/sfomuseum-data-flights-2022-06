@@ -2,10 +2,12 @@
   "id": 1779687283,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-15",
+    "date:cessation_upper": "2022-06-15",
     "date:inception_lower": "2022-06-15",
     "date:inception_upper": "2022-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-15",
+    "edtf:cessation": "2022-06-15T20:33:52Z",
+    "edtf:inception": "2022-06-15T19:40:00Z",
     "flysfo:actual_timestamp": 1655334000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N854VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25923221"
+    },
     "wof:country": "US",
     "wof:created": 1655396427,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779687283,
     "wof:involves": [
-      102533795,
       102527513,
       1159283813,
-      1763588135
+      1763588135,
+      1159292085,
+      102533795
     ],
-    "wof:lastmodified": 1655396427,
+    "wof:lastmodified": 1655396951,
     "wof:name": "AS728 (SFO-LAX)",
     "wof:parent_id": 1763588135,
     "wof:placetype": "custom",

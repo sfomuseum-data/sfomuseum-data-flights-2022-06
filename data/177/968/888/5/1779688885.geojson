@@ -2,10 +2,12 @@
   "id": 1779688885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-16",
+    "date:cessation_upper": "2022-06-16",
     "date:inception_lower": "2022-06-15",
     "date:inception_upper": "2022-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-15",
+    "edtf:cessation": "2022-06-16T03:02:00Z",
+    "edtf:inception": "2022-06-15T10:44:27-07:00",
     "flysfo:actual_timestamp": 1655334000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419084999999995,
     "geom:longitude": -112.0399525,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529249,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57863",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "25971141",
+      "swim:gufi": "KO66872400"
+    },
     "wof:country": "US",
     "wof:created": 1655396826,
     "wof:geomhash": "749696abda6afece8bfb20d9b4325da6",
@@ -48,9 +62,9 @@
       102529249,
       102527513,
       1159285413,
-      -1
+      1159289945
     ],
-    "wof:lastmodified": 1655396826,
+    "wof:lastmodified": 1655396955,
     "wof:name": "UA2737 (SFO-AMA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
