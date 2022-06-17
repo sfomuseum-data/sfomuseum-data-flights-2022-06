@@ -1,0 +1,69 @@
+{
+  "id": 1779692307,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-06-16",
+    "date:inception_upper": "2022-06-16",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-06-16",
+    "flysfo:actual_timestamp": 1655399520,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2022-06-16",
+    "flysfo:estimated_timestamp": 1655399520,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA2935",
+    "flysfo:gate": "",
+    "flysfo:journey": "IDA-SFO",
+    "flysfo:scheduled_timestamp": 1655399700,
+    "flysfo:timestamp": 1655399700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-112.068925,43.514607",
+    "geom:latitude": 40.5662985,
+    "geom:longitude": -117.219934,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102528385,
+    "sfomuseum:flight_id": "20220616-A-UAL-2935",
+    "sfomuseum:flight_number": [
+      "UAL2935",
+      "UA2935"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1655482530,
+    "wof:geomhash": "3be665ce6f24697b71b657073500f9bc",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779692307
+      }
+    ],
+    "wof:id": 1779692307,
+    "wof:involves": [
+      102527513,
+      102528385,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1655482530,
+    "wof:name": "UA2935 (IDA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -112.068925,
+    43.514607
+  ],
+  "geometry": {"coordinates":[[-112.068925,43.514607],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
