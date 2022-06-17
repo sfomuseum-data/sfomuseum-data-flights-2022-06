@@ -2,10 +2,12 @@
   "id": 1779694489,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-16",
-    "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
+    "date:inception_lower": "2022-06-17",
+    "date:inception_upper": "2022-06-17",
+    "edtf:cessation": "2022-06-17T22:38:19Z",
+    "edtf:inception": "2022-06-16T17:35:03-07:00",
     "flysfo:actual_timestamp": 1655420400,
     "flysfo:airline": "VN",
     "flysfo:date": "2022-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.214063499999998,
     "geom:longitude": -7.853876999999997,
     "iata:airline": "VN",
+    "icao:aircraft": "A359",
     "icao:airline": "HVN",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159285479,
     "sfomuseum:arrival_id": 102559025,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "VNA890",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25967710"
+    },
     "wof:country": "US",
     "wof:created": 1655483122,
     "wof:geomhash": "a9bd12f81c63da183812f670f2a99bda",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779694489,
     "wof:involves": [
-      102559025,
       102527513,
       1159285479,
-      1763588411
+      1763588411,
+      1377564293,
+      102559025
     ],
-    "wof:lastmodified": 1655483122,
+    "wof:lastmodified": 1655483531,
     "wof:name": "VN99 (SFO-SGN)",
     "wof:parent_id": 1763588411,
     "wof:placetype": "custom",

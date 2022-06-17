@@ -2,10 +2,12 @@
   "id": 1779695571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-16",
+    "date:cessation_upper": "2022-06-16",
     "date:inception_lower": "2022-06-16",
     "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "edtf:cessation": "2022-06-16T19:28:00Z",
+    "edtf:inception": "2022-06-16T04:17:41-07:00",
     "flysfo:actual_timestamp": 1655401680,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N62892",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26015609",
+      "swim:gufi": "KO53818500"
+    },
     "wof:country": "US",
     "wof:created": 1655483402,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779695571,
     "wof:involves": [
-      102528997,
-      102527513,
       1159285413,
-      1763588287
+      1763588287,
+      1377564285,
+      102528997,
+      102527513
     ],
-    "wof:lastmodified": 1655483402,
+    "wof:lastmodified": 1655483544,
     "wof:name": "UA2669 (SFO-SAN)",
     "wof:parent_id": 1763588287,
     "wof:placetype": "custom",

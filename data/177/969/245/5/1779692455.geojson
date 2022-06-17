@@ -2,10 +2,12 @@
   "id": 1779692455,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-16",
+    "date:cessation_upper": "2022-06-16",
     "date:inception_lower": "2022-06-16",
     "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "edtf:cessation": "2022-06-16T08:05:04-07:00",
+    "edtf:inception": "2022-06-16T18:54:00Z",
     "flysfo:actual_timestamp": 1655417460,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102521851,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N429UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26003104",
+      "swim:gufi": "KH56440500"
+    },
     "wof:country": "US",
     "wof:created": 1655482575,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779692455,
     "wof:involves": [
+      1159292085,
       102527513,
       102521851,
       1159285413,
       1763588327
     ],
-    "wof:lastmodified": 1655482575,
+    "wof:lastmodified": 1655483541,
     "wof:name": "UA571 (AUS-SFO)",
     "wof:parent_id": 1763588327,
     "wof:placetype": "custom",

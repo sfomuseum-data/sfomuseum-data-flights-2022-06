@@ -2,10 +2,12 @@
   "id": 1779690583,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-16",
+    "date:cessation_upper": "2022-06-16",
     "date:inception_lower": "2022-06-16",
     "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "edtf:cessation": "2022-06-16T07:07:00Z",
+    "edtf:inception": "2022-06-16T06:02:00Z",
     "flysfo:actual_timestamp": 1655363700,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-16",
@@ -48,6 +50,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "25962961"
+    },
     "wof:country": "US",
     "wof:created": 1655482069,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -86,7 +91,7 @@
       1159283813,
       1763588157
     ],
-    "wof:lastmodified": 1655482069,
+    "wof:lastmodified": 1655483523,
     "wof:name": "AS588 (LAS-SFO)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

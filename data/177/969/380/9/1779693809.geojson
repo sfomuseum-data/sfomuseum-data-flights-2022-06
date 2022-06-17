@@ -2,10 +2,12 @@
   "id": 1779693809,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
     "date:inception_lower": "2022-06-16",
     "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "edtf:cessation": "2022-06-17T03:56:41Z",
+    "edtf:inception": "2022-06-16T23:08:00Z",
     "flysfo:actual_timestamp": 1655419260,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N926VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26038254"
+    },
     "wof:country": "US",
     "wof:created": 1655482946,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779693809,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283813,
-      1763588157
+      1763588157,
+      1377564297,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1655482946,
+    "wof:lastmodified": 1655483530,
     "wof:name": "AS276 (SFO-JFK)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

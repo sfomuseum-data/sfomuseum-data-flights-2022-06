@@ -2,10 +2,12 @@
   "id": 1779695363,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
     "date:inception_lower": "2022-06-16",
     "date:inception_upper": "2022-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-16",
+    "edtf:cessation": "2022-06-17T01:11:00Z",
+    "edtf:inception": "2022-06-16T23:30:00Z",
     "flysfo:actual_timestamp": 1655421360,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N73256",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26049070",
+      "swim:gufi": "KO74639500"
+    },
     "wof:country": "US",
     "wof:created": 1655483347,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779695363,
     "wof:involves": [
+      1763588287,
+      1159289871,
       102555307,
       102527513,
-      1159285413,
-      1763588287
+      1159285413
     ],
-    "wof:lastmodified": 1655483347,
+    "wof:lastmodified": 1655483543,
     "wof:name": "UA1542 (SFO-YVR)",
     "wof:parent_id": 1763588287,
     "wof:placetype": "custom",
