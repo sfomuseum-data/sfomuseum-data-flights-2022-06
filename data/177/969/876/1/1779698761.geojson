@@ -2,10 +2,12 @@
   "id": 1779698761,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-17T05:57:41-07:00",
+    "edtf:inception": "2022-06-17T18:22:00Z",
     "flysfo:actual_timestamp": 1655506800,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N536US",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26120720",
+      "swim:gufi": "KU61561600"
+    },
     "wof:country": "US",
     "wof:created": 1655568527,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779698761,
     "wof:involves": [
+      1159289939,
       102527513,
       102527363,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1655568527,
+    "wof:lastmodified": 1655569812,
     "wof:name": "DL397 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

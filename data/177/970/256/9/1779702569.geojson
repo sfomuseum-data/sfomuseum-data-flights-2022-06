@@ -2,10 +2,12 @@
   "id": 1779702569,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-18",
+    "date:cessation_upper": "2022-06-18",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-18T00:04:19Z",
+    "edtf:inception": "2022-06-17T20:12:00Z",
     "flysfo:actual_timestamp": 1655506800,
     "flysfo:airline": "MX",
     "flysfo:date": "2022-06-17",
@@ -21,6 +23,7 @@
     "geom:latitude": 37.9025565,
     "geom:longitude": -104.05767900000001,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
@@ -34,7 +37,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N208BZ",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26133235"
+    },
     "wof:country": "US",
     "wof:created": 1655569485,
     "wof:geomhash": "1b3bbc939bc3a370232933405173139d",
@@ -50,7 +62,7 @@
       1763552131,
       -1
     ],
-    "wof:lastmodified": 1655569485,
+    "wof:lastmodified": 1655569818,
     "wof:name": "MX105 (SFO-SDF)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

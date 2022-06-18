@@ -2,10 +2,12 @@
   "id": 1779703367,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-18",
+    "date:cessation_upper": "2022-06-18",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-18T00:23:00Z",
+    "edtf:inception": "2022-06-17T22:15:00Z",
     "flysfo:actual_timestamp": 1655506800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26180407"
+    },
     "wof:country": "US",
     "wof:created": 1655569686,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -45,12 +55,12 @@
     ],
     "wof:id": 1779703367,
     "wof:involves": [
+      1159289869,
       102531189,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1655569686,
+    "wof:lastmodified": 1655569827,
     "wof:name": "UA2741 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

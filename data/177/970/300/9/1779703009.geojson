@@ -2,10 +2,12 @@
   "id": 1779703009,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-17T23:53:54Z",
+    "edtf:inception": "2022-06-17T18:35:00Z",
     "flysfo:actual_timestamp": 1655506800,
     "flysfo:airline": "TA",
     "flysfo:date": "2022-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.5313695,
     "geom:longitude": -105.7147545,
     "iata:airline": "TA",
+    "icao:aircraft": "A20N",
     "icao:airline": "TAI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159285255,
     "sfomuseum:arrival_id": 102556081,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N769AV",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26204874"
+    },
     "wof:country": "US",
     "wof:created": 1655569597,
     "wof:geomhash": "5e2e6299deb3a59dda4e65fa5b8c6ddb",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1779703009,
     "wof:involves": [
+      1377564295,
       102556081,
       102527513,
-      1159285255,
-      -1
+      1159285255
     ],
-    "wof:lastmodified": 1655569597,
+    "wof:lastmodified": 1655569822,
     "wof:name": "TA5561 (SFO-SAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

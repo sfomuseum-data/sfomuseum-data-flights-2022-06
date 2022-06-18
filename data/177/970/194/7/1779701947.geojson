@@ -2,10 +2,12 @@
   "id": 1779701947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-18",
+    "date:cessation_upper": "2022-06-18",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-18T02:19:00Z",
+    "edtf:inception": "2022-06-17T21:27:00Z",
     "flysfo:actual_timestamp": 1655506800,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-06-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N536US",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26219691",
+      "swim:gufi": "KO64739600"
+    },
     "wof:country": "US",
     "wof:created": 1655569331,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779701947,
     "wof:involves": [
+      1159289939,
       102533997,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1655569331,
+    "wof:lastmodified": 1655569815,
     "wof:name": "DL397 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

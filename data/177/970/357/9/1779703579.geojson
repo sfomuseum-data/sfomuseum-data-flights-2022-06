@@ -2,10 +2,12 @@
   "id": 1779703579,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-17",
+    "date:cessation_upper": "2022-06-17",
     "date:inception_lower": "2022-06-17",
     "date:inception_upper": "2022-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-17",
+    "edtf:cessation": "2022-06-17T07:12:05Z",
+    "edtf:inception": "2022-06-17T06:14:00Z",
     "flysfo:actual_timestamp": 1655485740,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "AC",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26168334"
+    },
     "wof:country": "US",
     "wof:created": 1655569738,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -92,7 +97,7 @@
       1763588153,
       1159283597
     ],
-    "wof:lastmodified": 1655569738,
+    "wof:lastmodified": 1655569827,
     "wof:name": "UA8200 (SFO-YYC)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",
