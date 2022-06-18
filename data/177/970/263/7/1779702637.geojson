@@ -1,0 +1,75 @@
+{
+  "id": 1779702637,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-06-17",
+    "date:inception_upper": "2022-06-17",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-06-17",
+    "flysfo:actual_timestamp": 1655481180,
+    "flysfo:airline": "QF",
+    "flysfo:base_airline": "WS",
+    "flysfo:base_flight_number": "1521",
+    "flysfo:date": "2022-06-17",
+    "flysfo:estimated_timestamp": 1655482080,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "QF3974",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-YYC",
+    "flysfo:scheduled_timestamp": 1655480100,
+    "flysfo:timestamp": 1655482080,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-114.020920,51.119526",
+    "geom:latitude": 44.368758,
+    "geom:longitude": -118.1959315,
+    "iata:airline": "QF",
+    "iata:base_airline": "WS",
+    "icao:airline": "QFA",
+    "icao:base_airline": "WJA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285043,
+    "sfomuseum:arrival_id": 102554947,
+    "sfomuseum:base_flight_id": "20220617-D-WJA-1521",
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20220617-D-QFA-3974",
+    "sfomuseum:flight_number": [
+      "QFA3974",
+      "QF3974"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1655569502,
+    "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779702637
+      }
+    ],
+    "wof:id": 1779702637,
+    "wof:involves": [
+      102554947,
+      102527513,
+      1159285043,
+      -1,
+      1159285523
+    ],
+    "wof:lastmodified": 1655569502,
+    "wof:name": "QF3974 (SFO-YYC)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -114.02092,
+    51.119526
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-114.02092,51.119526]],"type":"MultiPoint"}
+}
