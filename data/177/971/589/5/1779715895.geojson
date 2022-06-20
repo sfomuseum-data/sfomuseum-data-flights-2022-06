@@ -2,10 +2,12 @@
   "id": 1779715895,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-19",
+    "date:cessation_upper": "2022-06-19",
     "date:inception_lower": "2022-06-19",
     "date:inception_upper": "2022-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-19",
+    "edtf:cessation": "2022-06-19T20:55:00Z",
+    "edtf:inception": "2022-06-19T17:44:00Z",
     "flysfo:actual_timestamp": 1655659620,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527373,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N418UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26304717",
+      "swim:gufi": "KO48692100"
+    },
     "wof:country": "US",
     "wof:created": 1655742474,
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779715895,
     "wof:involves": [
+      1159292085,
       102527373,
       102527513,
       1159285413,
       1763588329
     ],
-    "wof:lastmodified": 1655742474,
+    "wof:lastmodified": 1655742624,
     "wof:name": "UA2203 (SFO-SAT)",
     "wof:parent_id": 1763588329,
     "wof:placetype": "custom",

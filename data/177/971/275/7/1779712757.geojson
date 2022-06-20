@@ -2,10 +2,12 @@
   "id": 1779712757,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-19",
+    "date:cessation_upper": "2022-06-19",
     "date:inception_lower": "2022-06-19",
     "date:inception_upper": "2022-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-19",
+    "edtf:cessation": "2022-06-19T03:51:31-07:00",
+    "edtf:inception": "2022-06-19T14:24:00Z",
     "flysfo:actual_timestamp": 1655661300,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37513",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26288388",
+      "swim:gufi": "KL54184100"
+    },
     "wof:country": "US",
     "wof:created": 1655741681,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779712757,
     "wof:involves": [
+      1528104577,
       102527513,
       102526751,
       1159285413,
       1763588353
     ],
-    "wof:lastmodified": 1655741681,
+    "wof:lastmodified": 1655742618,
     "wof:name": "UA2448 (PHX-SFO)",
     "wof:parent_id": 1763588353,
     "wof:placetype": "custom",

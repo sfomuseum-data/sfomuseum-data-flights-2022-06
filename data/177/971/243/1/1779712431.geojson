@@ -2,10 +2,12 @@
   "id": 1779712431,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-19",
+    "date:cessation_upper": "2022-06-19",
     "date:inception_lower": "2022-06-19",
     "date:inception_upper": "2022-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-19",
+    "edtf:cessation": "2022-06-19T07:27:13Z",
+    "edtf:inception": "2022-06-19T03:35:00Z",
     "flysfo:actual_timestamp": 1655624280,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-06-19",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26254280"
+    },
     "wof:country": "US",
     "wof:created": 1655741597,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1655741597,
+    "wof:lastmodified": 1655742629,
     "wof:name": "WN4486 (MDW-SFO)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",

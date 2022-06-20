@@ -2,10 +2,12 @@
   "id": 1779715745,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-19",
+    "date:cessation_upper": "2022-06-19",
     "date:inception_lower": "2022-06-19",
     "date:inception_upper": "2022-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-19",
+    "edtf:cessation": "2022-06-19T10:44:32Z",
+    "edtf:inception": "2022-06-19T06:59:00Z",
     "flysfo:actual_timestamp": 1655704800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-19",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26266726"
+    },
     "wof:country": "US",
     "wof:created": 1655742436,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -86,7 +91,7 @@
       1159285413,
       1763588351
     ],
-    "wof:lastmodified": 1655742436,
+    "wof:lastmodified": 1655742624,
     "wof:name": "UA1494 (SFO-ORD)",
     "wof:parent_id": 1763588351,
     "wof:placetype": "custom",

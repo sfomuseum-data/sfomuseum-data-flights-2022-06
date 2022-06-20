@@ -2,10 +2,12 @@
   "id": 1779715795,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-20",
+    "date:cessation_upper": "2022-06-20",
     "date:inception_lower": "2022-06-19",
     "date:inception_upper": "2022-06-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-19",
+    "edtf:cessation": "2022-06-20T02:40:49Z",
+    "edtf:inception": "2022-06-19T23:21:00Z",
     "flysfo:actual_timestamp": 1655680080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N466UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26331175",
+      "swim:gufi": "KO74215100"
+    },
     "wof:country": "US",
     "wof:created": 1655742449,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779715795,
     "wof:involves": [
-      102534097,
       102527513,
       1159285413,
-      1763588289
+      1763588289,
+      1159292085,
+      102534097
     ],
-    "wof:lastmodified": 1655742449,
+    "wof:lastmodified": 1655742624,
     "wof:name": "UA1728 (SFO-IAH)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",
