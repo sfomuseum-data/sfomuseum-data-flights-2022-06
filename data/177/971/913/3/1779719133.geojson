@@ -2,10 +2,12 @@
   "id": 1779719133,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-20",
-    "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "date:cessation_lower": "2022-06-20",
+    "date:cessation_upper": "2022-06-20",
+    "date:inception_lower": "2022-06-21",
+    "date:inception_upper": "2022-06-21",
+    "edtf:cessation": "2022-06-20T16:00:33-07:00",
+    "edtf:inception": "2022-06-21T00:47:00Z",
     "flysfo:actual_timestamp": 1655791740,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N798UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN79545200"
+    },
     "wof:country": "US",
     "wof:created": 1655828087,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779719133,
     "wof:involves": [
+      1159289985,
       102527513,
       102530049,
       1159285413,
       1763588309
     ],
-    "wof:lastmodified": 1655828087,
+    "wof:lastmodified": 1655829044,
     "wof:name": "UA395 (EWR-SFO)",
     "wof:parent_id": 1763588309,
     "wof:placetype": "custom",

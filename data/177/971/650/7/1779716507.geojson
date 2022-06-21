@@ -2,10 +2,12 @@
   "id": 1779716507,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-20",
+    "date:cessation_upper": "2022-06-20",
     "date:inception_lower": "2022-06-20",
     "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "edtf:cessation": "2022-06-20T14:38:01-07:00",
+    "edtf:inception": "2022-06-20T23:22:00Z",
     "flysfo:actual_timestamp": 1655786760,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N434AN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26414285",
+      "swim:gufi": "KN76882200"
+    },
     "wof:country": "US",
     "wof:created": 1655827365,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779716507,
     "wof:involves": [
+      1377564297,
       102527513,
       102529403,
       1159283849,
       1763588229
     ],
-    "wof:lastmodified": 1655827365,
+    "wof:lastmodified": 1655829027,
     "wof:name": "AA756 (PHL-SFO)",
     "wof:parent_id": 1763588229,
     "wof:placetype": "custom",

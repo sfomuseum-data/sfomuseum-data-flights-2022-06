@@ -2,10 +2,12 @@
   "id": 1779719117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-20",
+    "date:cessation_upper": "2022-06-20",
     "date:inception_lower": "2022-06-20",
     "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "edtf:cessation": "2022-06-20T04:43:48-07:00",
+    "edtf:inception": "2022-06-20T17:49:00Z",
     "flysfo:actual_timestamp": 1655766000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0998015,
     "geom:longitude": -119.87272250000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530801,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N788UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26385338",
+      "swim:gufi": "KL53324200"
+    },
     "wof:country": "US",
     "wof:created": 1655828083,
     "wof:geomhash": "099d85224c4d6fa8685f2b490939bec5",
@@ -48,9 +62,9 @@
       102527513,
       102530801,
       1159285413,
-      -1
+      1159289985
     ],
-    "wof:lastmodified": 1655828083,
+    "wof:lastmodified": 1655829044,
     "wof:name": "UA2731 (VCV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

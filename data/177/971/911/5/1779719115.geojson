@@ -2,10 +2,12 @@
   "id": 1779719115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-20",
+    "date:cessation_upper": "2022-06-20",
     "date:inception_lower": "2022-06-20",
     "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "edtf:cessation": "2022-06-20T03:49:37-07:00",
+    "edtf:inception": "2022-06-20T16:36:00Z",
     "flysfo:actual_timestamp": 1655766000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.9389005,
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530507,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N816UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26459119",
+      "swim:gufi": "KS54306200"
+    },
     "wof:country": "US",
     "wof:created": 1655828083,
     "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779719115,
     "wof:involves": [
+      1159289407,
       102527513,
       102530507,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1655828083,
+    "wof:lastmodified": 1655829044,
     "wof:name": "UA2723 (RDM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

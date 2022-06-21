@@ -2,10 +2,12 @@
   "id": 1779722115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-21",
+    "date:cessation_upper": "2022-06-21",
     "date:inception_lower": "2022-06-20",
     "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "edtf:cessation": "2022-06-21T06:48:00Z",
+    "edtf:inception": "2022-06-20T21:00:00Z",
     "flysfo:actual_timestamp": 1655757720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.9853355,
     "geom:longitude": -55.2970675,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102549067,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2250U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26404069",
+      "swim:gufi": "KO63603200"
+    },
     "wof:country": "US",
     "wof:created": 1655828866,
     "wof:geomhash": "d9a5d9d800d6bc92413ff3768040f8da",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779722115,
     "wof:involves": [
-      102549067,
       102527513,
       1159285413,
-      1763588441
+      1763588441,
+      1159289993,
+      102549067
     ],
-    "wof:lastmodified": 1655828866,
+    "wof:lastmodified": 1655829038,
     "wof:name": "UA194 (SFO-MUC)",
     "wof:parent_id": 1763588441,
     "wof:placetype": "custom",

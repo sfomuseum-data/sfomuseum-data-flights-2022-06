@@ -2,10 +2,12 @@
   "id": 1779720601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-21",
+    "date:cessation_upper": "2022-06-21",
     "date:inception_lower": "2022-06-20",
     "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "edtf:cessation": "2022-06-21T01:52:22Z",
+    "edtf:inception": "2022-06-20T22:45:00Z",
     "flysfo:actual_timestamp": 1655766000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527373,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N837VA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26429734"
+    },
     "wof:country": "US",
     "wof:created": 1655828475,
     "wof:geomhash": "3d1812cb234aac8b643ea0201167e576",
@@ -48,9 +60,9 @@
       102527373,
       102527513,
       1159283813,
-      -1
+      1159292085
     ],
-    "wof:lastmodified": 1655828475,
+    "wof:lastmodified": 1655829029,
     "wof:name": "AS9514 (SFO-SAT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

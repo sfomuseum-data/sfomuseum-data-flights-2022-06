@@ -2,10 +2,12 @@
   "id": 1779722097,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-20",
-    "date:inception_upper": "2022-06-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-20",
+    "date:cessation_lower": "2022-06-21",
+    "date:cessation_upper": "2022-06-21",
+    "date:inception_lower": "2022-06-21",
+    "date:inception_upper": "2022-06-21",
+    "edtf:cessation": "2022-06-21T07:20:36Z",
+    "edtf:inception": "2022-06-21T06:14:00Z",
     "flysfo:actual_timestamp": 1655790060,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N838UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26349010",
+      "swim:gufi": "KO10984300"
+    },
     "wof:country": "US",
     "wof:created": 1655828861,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -84,9 +98,10 @@
       102533927,
       102527513,
       1159285413,
-      1763588443
+      1763588443,
+      1159289407
     ],
-    "wof:lastmodified": 1655828861,
+    "wof:lastmodified": 1655829037,
     "wof:name": "UA1831 (SFO-EUG)",
     "wof:parent_id": 1763588443,
     "wof:placetype": "custom",
