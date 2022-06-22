@@ -2,10 +2,12 @@
   "id": 1779723813,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-21",
+    "date:cessation_upper": "2022-06-21",
     "date:inception_lower": "2022-06-21",
     "date:inception_upper": "2022-06-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-21",
+    "edtf:cessation": "2022-06-21T18:27:00Z",
+    "edtf:inception": "2022-06-21T17:21:00Z",
     "flysfo:actual_timestamp": 1655836500,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N931AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +56,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26472857"
+    },
     "wof:country": "US",
     "wof:created": 1655914070,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1779723813,
     "wof:involves": [
+      1763588141,
+      1528104577,
       102527513,
       102527209,
-      1159283813,
-      1763588141
+      1159283813
     ],
-    "wof:lastmodified": 1655914070,
+    "wof:lastmodified": 1655915495,
     "wof:name": "AS238 (LAS-SFO)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",
