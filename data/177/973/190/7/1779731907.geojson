@@ -2,10 +2,12 @@
   "id": 1779731907,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-22",
+    "date:cessation_upper": "2022-06-22",
     "date:inception_lower": "2022-06-22",
     "date:inception_upper": "2022-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-22",
+    "edtf:cessation": "2022-06-22T04:10:44-07:00",
+    "edtf:inception": "2022-06-22T17:21:00Z",
     "flysfo:actual_timestamp": 1655921820,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N803UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26569843",
+      "swim:gufi": "KL52171400"
+    },
     "wof:country": "US",
     "wof:created": 1656000885,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,9 +97,10 @@
       102527513,
       102533795,
       1159285413,
-      1763588289
+      1763588289,
+      1159289407
     ],
-    "wof:lastmodified": 1656000885,
+    "wof:lastmodified": 1656001827,
     "wof:name": "UA2652 (LAX-SFO)",
     "wof:parent_id": 1763588289,
     "wof:placetype": "custom",

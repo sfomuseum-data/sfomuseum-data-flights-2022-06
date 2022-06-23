@@ -2,10 +2,12 @@
   "id": 1779732751,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-22",
+    "date:cessation_upper": "2022-06-22",
     "date:inception_lower": "2022-06-22",
     "date:inception_upper": "2022-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-22",
+    "edtf:cessation": "2022-06-22T18:47:00Z",
+    "edtf:inception": "2022-06-22T00:43:02-07:00",
     "flysfo:actual_timestamp": 1655907900,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "A333",
     "icao:airline": "ACA",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289423,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGEGP",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26553496",
+      "swim:gufi": "KO39876400"
+    },
     "wof:country": "US",
     "wof:created": 1656001098,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779732751,
     "wof:involves": [
+      1763588153,
+      1159289423,
       102555091,
       102527513,
-      1159283597,
-      1763588153
+      1159283597
     ],
-    "wof:lastmodified": 1656001098,
+    "wof:lastmodified": 1656001837,
     "wof:name": "AC738 (SFO-YYZ)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",

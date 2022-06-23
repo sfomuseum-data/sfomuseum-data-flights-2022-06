@@ -2,10 +2,12 @@
   "id": 1779730121,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-23",
+    "date:cessation_upper": "2022-06-23",
     "date:inception_lower": "2022-06-22",
     "date:inception_upper": "2022-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-22",
+    "edtf:cessation": "2022-06-23T01:57:00Z",
+    "edtf:inception": "2022-06-22T21:46:00Z",
     "flysfo:actual_timestamp": 1655949720,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N305AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1779730121,
     "wof:involves": [
+      1377564285,
       102527513,
       102533631,
       1159283813,
       1763588147
     ],
-    "wof:lastmodified": 1656000430,
+    "wof:lastmodified": 1656001813,
     "wof:name": "AS1213 (ORD-SFO)",
     "wof:parent_id": 1763588147,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779735169,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-23",
+    "date:cessation_upper": "2022-06-23",
     "date:inception_lower": "2022-06-22",
     "date:inception_upper": "2022-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-22",
+    "edtf:cessation": "2022-06-23T03:23:56Z",
+    "edtf:inception": "2022-06-22T23:56:00Z",
     "flysfo:actual_timestamp": 1655941080,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N780UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26607504",
+      "swim:gufi": "KO73489400"
+    },
     "wof:country": "US",
     "wof:created": 1656001703,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779735169,
     "wof:involves": [
+      1159289985,
       102533631,
       102527513,
       1159285413,
       1763588309
     ],
-    "wof:lastmodified": 1656001703,
+    "wof:lastmodified": 1656001833,
     "wof:name": "UA729 (SFO-ORD)",
     "wof:parent_id": 1763588309,
     "wof:placetype": "custom",

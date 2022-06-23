@@ -2,10 +2,12 @@
   "id": 1779732295,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-23",
+    "date:cessation_upper": "2022-06-23",
     "date:inception_lower": "2022-06-22",
     "date:inception_upper": "2022-06-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-22",
+    "edtf:cessation": "2022-06-23T03:14:00Z",
+    "edtf:inception": "2022-06-22T21:59:00Z",
     "flysfo:actual_timestamp": 1655938800,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-06-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N115NN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26574701",
+      "swim:gufi": "KO59173400"
+    },
     "wof:country": "US",
     "wof:created": 1656000984,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779732295,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283849,
-      1763588209
+      1763588209,
+      1159289411,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1656000984,
+    "wof:lastmodified": 1656001835,
     "wof:name": "AA164 (SFO-JFK)",
     "wof:parent_id": 1763588209,
     "wof:placetype": "custom",
