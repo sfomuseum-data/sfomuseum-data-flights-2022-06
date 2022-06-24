@@ -2,10 +2,12 @@
   "id": 1779742949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-24",
+    "date:cessation_upper": "2022-06-24",
     "date:inception_lower": "2022-06-23",
     "date:inception_upper": "2022-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-23",
+    "edtf:cessation": "2022-06-24T05:18:00Z",
+    "edtf:inception": "2022-06-23T14:43:05-07:00",
     "flysfo:actual_timestamp": 1656044340,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N881UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO03898600"
+    },
     "wof:country": "US",
     "wof:created": 1656088051,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1779742949,
     "wof:involves": [
+      1159289407,
       102525535,
       102527513,
       1159285413,
       1763588283
     ],
-    "wof:lastmodified": 1656088051,
+    "wof:lastmodified": 1656088253,
     "wof:name": "UA1742 (SFO-RNO)",
     "wof:parent_id": 1763588283,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1779742861,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-23",
+    "date:cessation_upper": "2022-06-23",
     "date:inception_lower": "2022-06-23",
     "date:inception_upper": "2022-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-23",
+    "edtf:cessation": "2022-06-23T20:20:00Z",
+    "edtf:inception": "2022-06-23T18:18:00Z",
     "flysfo:actual_timestamp": 1656007560,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69829",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26677018",
+      "swim:gufi": "KO58215500"
+    },
     "wof:country": "US",
     "wof:created": 1656088030,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779742861,
     "wof:involves": [
+      1377564285,
       102554947,
       102527513,
       1159285413,
       1763588357
     ],
-    "wof:lastmodified": 1656088030,
+    "wof:lastmodified": 1656088252,
     "wof:name": "UA1168 (SFO-YYC)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",

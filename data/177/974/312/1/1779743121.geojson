@@ -2,10 +2,12 @@
   "id": 1779743121,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-24",
+    "date:cessation_upper": "2022-06-24",
     "date:inception_lower": "2022-06-23",
     "date:inception_upper": "2022-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-23",
+    "edtf:cessation": "2022-06-24T01:53:00Z",
+    "edtf:inception": "2022-06-23T07:36:43-07:00",
     "flysfo:actual_timestamp": 1656025200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N45956",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26770565",
+      "swim:gufi": "KO75712500"
+    },
     "wof:country": "US",
     "wof:created": 1656088094,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1779743121,
     "wof:involves": [
+      1159293215,
       102528817,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1656088094,
+    "wof:lastmodified": 1656088256,
     "wof:name": "UA2740 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

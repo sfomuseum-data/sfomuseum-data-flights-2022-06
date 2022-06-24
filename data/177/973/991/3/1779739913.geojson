@@ -2,10 +2,12 @@
   "id": 1779739913,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-23",
+    "date:cessation_upper": "2022-06-23",
     "date:inception_lower": "2022-06-23",
     "date:inception_upper": "2022-06-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-23",
+    "edtf:cessation": "2022-06-23T21:53:00Z",
+    "edtf:inception": "2022-06-23T20:53:00Z",
     "flysfo:actual_timestamp": 1656025200,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.4645545,
     "geom:longitude": -113.444008,
     "iata:airline": "UA",
+    "icao:aircraft": "B764",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1394298249,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530535,
@@ -34,7 +38,18 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N66057",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "26657515",
+      "swim:gufi": "KO65344500"
+    },
     "wof:country": "US",
     "wof:created": 1656087288,
     "wof:geomhash": "e3c6a1a6f8d45a2660e783ca1e486101",
@@ -45,12 +60,12 @@
     ],
     "wof:id": 1779739913,
     "wof:involves": [
+      1394298249,
       102527513,
       102530535,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1656087288,
+    "wof:lastmodified": 1656088252,
     "wof:name": "UA2725 (ROW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
