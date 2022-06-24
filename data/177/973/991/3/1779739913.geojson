@@ -1,0 +1,69 @@
+{
+  "id": 1779739913,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-06-23",
+    "date:inception_upper": "2022-06-23",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-06-23",
+    "flysfo:actual_timestamp": 1656025200,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2022-06-23",
+    "flysfo:estimated_timestamp": 1656007980,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA2725",
+    "flysfo:gate": "",
+    "flysfo:journey": "ROW-SFO",
+    "flysfo:scheduled_timestamp": 1656007320,
+    "flysfo:timestamp": 1656025200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.311119,-104.517073,37.617990",
+    "geom:latitude": 35.4645545,
+    "geom:longitude": -113.444008,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530535,
+    "sfomuseum:flight_id": "20220623-A-UAL-2725",
+    "sfomuseum:flight_number": [
+      "UAL2725",
+      "UA2725"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1656087288,
+    "wof:geomhash": "e3c6a1a6f8d45a2660e783ca1e486101",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779739913
+      }
+    ],
+    "wof:id": 1779739913,
+    "wof:involves": [
+      102527513,
+      102530535,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1656087288,
+    "wof:name": "UA2725 (ROW-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.311119,
+    -104.517073,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-104.517073,33.311119],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
