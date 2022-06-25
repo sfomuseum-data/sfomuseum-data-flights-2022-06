@@ -2,10 +2,12 @@
   "id": 1779750259,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-24",
-    "date:inception_upper": "2022-06-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-24",
+    "date:cessation_lower": "2022-06-25",
+    "date:cessation_upper": "2022-06-25",
+    "date:inception_lower": "2022-06-25",
+    "date:inception_upper": "2022-06-25",
+    "edtf:cessation": "2022-06-25T17:23:20Z",
+    "edtf:inception": "2022-06-25T06:47:00Z",
     "flysfo:actual_timestamp": 1656137520,
     "flysfo:airline": "FJ",
     "flysfo:date": "2022-06-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 9.9055625,
     "geom:longitude": 27.502708500000004,
     "iata:airline": "FJ",
+    "icao:aircraft": "A332",
     "icao:airline": "FJI",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159283717,
     "sfomuseum:arrival_id": 102555575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "DQFJT",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26728456"
+    },
     "wof:country": "US",
     "wof:created": 1656174214,
     "wof:geomhash": "ac04d12b9bb720d89a4c8027fbef35a5",
@@ -84,9 +97,10 @@
       102555575,
       102527513,
       1159283717,
-      1763588419
+      1763588419,
+      1159289421
     ],
-    "wof:lastmodified": 1656174214,
+    "wof:lastmodified": 1656174660,
     "wof:name": "FJ871 (SFO-NAN)",
     "wof:parent_id": 1763588419,
     "wof:placetype": "custom",
