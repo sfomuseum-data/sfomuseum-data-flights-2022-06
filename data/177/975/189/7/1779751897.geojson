@@ -2,10 +2,12 @@
   "id": 1779751897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-25",
+    "date:cessation_upper": "2022-06-25",
     "date:inception_lower": "2022-06-25",
     "date:inception_upper": "2022-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-25",
+    "edtf:cessation": "2022-06-25T17:40:00Z",
+    "edtf:inception": "2022-06-25T11:54:00Z",
     "flysfo:actual_timestamp": 1656198000,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-06-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26841425"
+    },
     "wof:country": "US",
     "wof:created": 1656259362,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -84,9 +94,10 @@
       102527513,
       102534365,
       1159283849,
-      1763588201
+      1763588201,
+      1159289411
     ],
-    "wof:lastmodified": 1656259362,
+    "wof:lastmodified": 1656260978,
     "wof:name": "AA76 (JFK-SFO)",
     "wof:parent_id": 1763588201,
     "wof:placetype": "custom",

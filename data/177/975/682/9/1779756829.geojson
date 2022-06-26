@@ -2,10 +2,12 @@
   "id": 1779756829,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-26",
+    "date:cessation_upper": "2022-06-26",
     "date:inception_lower": "2022-06-25",
     "date:inception_upper": "2022-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-25",
+    "edtf:cessation": "2022-06-26T00:18:00Z",
+    "edtf:inception": "2022-06-25T19:37:00Z",
     "flysfo:actual_timestamp": 1656184620,
     "flysfo:airline": "MX",
     "flysfo:date": "2022-06-25",
@@ -21,6 +23,7 @@
     "geom:latitude": 37.5640565,
     "geom:longitude": -99.852697,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N204BZ",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26891048"
+    },
     "wof:country": "US",
     "wof:created": 1656260645,
     "wof:geomhash": "d9bef38025bc12b7d28d0c23b4ba0650",
@@ -86,7 +98,7 @@
       1763552131,
       1763588147
     ],
-    "wof:lastmodified": 1656260645,
+    "wof:lastmodified": 1656260991,
     "wof:name": "MX117 (SFO-RIC)",
     "wof:parent_id": 1763588147,
     "wof:placetype": "custom",

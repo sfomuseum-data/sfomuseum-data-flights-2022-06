@@ -2,10 +2,12 @@
   "id": 1779757481,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-25",
+    "date:cessation_upper": "2022-06-25",
     "date:inception_lower": "2022-06-25",
     "date:inception_upper": "2022-06-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-25",
+    "edtf:cessation": "2022-06-25T18:40:42Z",
+    "edtf:inception": "2022-06-25T17:38:00Z",
     "flysfo:actual_timestamp": 1656177840,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N895UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26879895",
+      "swim:gufi": "KO51122700"
+    },
     "wof:country": "US",
     "wof:created": 1656260814,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1779757481,
     "wof:involves": [
+      1159289407,
       102533927,
       102527513,
       1159285413,
       1763588353
     ],
-    "wof:lastmodified": 1656260814,
+    "wof:lastmodified": 1656261001,
     "wof:name": "UA2235 (SFO-EUG)",
     "wof:parent_id": 1763588353,
     "wof:placetype": "custom",
