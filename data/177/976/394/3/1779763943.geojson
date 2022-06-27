@@ -2,10 +2,12 @@
   "id": 1779763943,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-26",
-    "date:inception_upper": "2022-06-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-26",
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
+    "date:inception_lower": "2022-06-27",
+    "date:inception_upper": "2022-06-27",
+    "edtf:cessation": "2022-06-27T06:40:01Z",
+    "edtf:inception": "2022-06-27T02:43:00Z",
     "flysfo:actual_timestamp": 1656296820,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27509",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26925035"
+    },
     "wof:country": "US",
     "wof:created": 1656347329,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -84,9 +97,10 @@
       102531979,
       102527513,
       1159285413,
-      1763588337
+      1763588337,
+      1528104577
     ],
-    "wof:lastmodified": 1656347329,
+    "wof:lastmodified": 1656347523,
     "wof:name": "UA2481 (SFO-ANC)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

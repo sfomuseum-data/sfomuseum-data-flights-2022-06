@@ -2,10 +2,12 @@
   "id": 1779762779,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-06-26",
-    "date:inception_upper": "2022-06-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-26",
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
+    "date:inception_lower": "2022-06-27",
+    "date:inception_upper": "2022-06-27",
+    "edtf:cessation": "2022-06-27T07:34:47Z",
+    "edtf:inception": "2022-06-27T06:23:00Z",
     "flysfo:actual_timestamp": 1656309660,
     "flysfo:airline": "F9",
     "flysfo:date": "2022-06-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N232FR",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -84,9 +93,10 @@
       102527209,
       102527513,
       1159284401,
-      1763588425
+      1763588425,
+      1159292085
     ],
-    "wof:lastmodified": 1656347033,
+    "wof:lastmodified": 1656347519,
     "wof:name": "F92080 (SFO-LAS)",
     "wof:parent_id": 1763588425,
     "wof:placetype": "custom",

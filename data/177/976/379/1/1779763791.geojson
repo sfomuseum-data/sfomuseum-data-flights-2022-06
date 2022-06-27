@@ -2,10 +2,12 @@
   "id": 1779763791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
     "date:inception_lower": "2022-06-26",
     "date:inception_upper": "2022-06-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-26",
+    "edtf:cessation": "2022-06-27T10:33:00Z",
+    "edtf:inception": "2022-06-26T05:48:00Z",
     "flysfo:actual_timestamp": 1656310740,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37253",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "26930954",
+      "swim:gufi": "KO18255200"
+    },
     "wof:country": "US",
     "wof:created": 1656347291,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779763791,
     "wof:involves": [
+      1159289871,
       102534019,
       102527513,
       1159285413,
       1763588149
     ],
-    "wof:lastmodified": 1656347291,
+    "wof:lastmodified": 1656347522,
     "wof:name": "UA1711 (SFO-CLE)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",
