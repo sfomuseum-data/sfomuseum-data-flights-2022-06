@@ -1,0 +1,69 @@
+{
+  "id": 1779764883,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-06-27",
+    "date:inception_upper": "2022-06-27",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-06-27",
+    "flysfo:actual_timestamp": 1656370800,
+    "flysfo:airline": "AC",
+    "flysfo:date": "2022-06-27",
+    "flysfo:estimated_timestamp": 1656381900,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AC8848",
+    "flysfo:gate": "",
+    "flysfo:journey": "YVR-SFO",
+    "flysfo:scheduled_timestamp": 1656381900,
+    "flysfo:timestamp": 1656381900,
+    "geom:area": 0,
+    "geom:bbox": "-123.179200,37.617990,-122.370943,49.193330",
+    "geom:latitude": 43.40566,
+    "geom:longitude": -122.7750715,
+    "iata:airline": "AC",
+    "icao:airline": "ACA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283597,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102555307,
+    "sfomuseum:flight_id": "20220627-A-ACA-8848",
+    "sfomuseum:flight_number": [
+      "ACA8848",
+      "AC8848"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1656432294,
+    "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1779764883
+      }
+    ],
+    "wof:id": 1779764883,
+    "wof:involves": [
+      102527513,
+      102555307,
+      1159283597,
+      -1
+    ],
+    "wof:lastmodified": 1656432294,
+    "wof:name": "AC8848 (YVR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -123.1792,
+    37.61799,
+    -122.370943,
+    49.19333
+  ],
+  "geometry": {"coordinates":[[-123.1792,49.19333],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
