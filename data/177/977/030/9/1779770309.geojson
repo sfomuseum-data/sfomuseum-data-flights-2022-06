@@ -2,10 +2,12 @@
   "id": 1779770309,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
     "date:inception_lower": "2022-06-27",
     "date:inception_upper": "2022-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-27",
+    "edtf:cessation": "2022-06-27T04:33:46Z",
+    "edtf:inception": "2022-06-27T03:41:00Z",
     "flysfo:actual_timestamp": 1656385740,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-27",
@@ -48,6 +50,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "27015555"
+    },
     "wof:country": "US",
     "wof:created": 1656433663,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -86,7 +91,7 @@
       1159285413,
       1763588285
     ],
-    "wof:lastmodified": 1656433663,
+    "wof:lastmodified": 1656433841,
     "wof:name": "UA395 (SFO-LAX)",
     "wof:parent_id": 1763588285,
     "wof:placetype": "custom",

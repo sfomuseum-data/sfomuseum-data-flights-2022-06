@@ -2,10 +2,12 @@
   "id": 1779770319,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
     "date:inception_lower": "2022-06-27",
     "date:inception_upper": "2022-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-27",
+    "edtf:cessation": "2022-06-27T16:30:37Z",
+    "edtf:inception": "2022-06-27T12:51:00Z",
     "flysfo:actual_timestamp": 1656333180,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-06-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57862",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "27032598",
+      "swim:gufi": "KO30763200"
+    },
     "wof:country": "US",
     "wof:created": 1656433665,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1779770319,
     "wof:involves": [
+      1159289945,
       102533631,
       102527513,
       1159285413,
       1763588311
     ],
-    "wof:lastmodified": 1656433665,
+    "wof:lastmodified": 1656433841,
     "wof:name": "UA452 (SFO-ORD)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

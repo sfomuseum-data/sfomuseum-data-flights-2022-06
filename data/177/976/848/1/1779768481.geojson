@@ -2,10 +2,12 @@
   "id": 1779768481,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2022-06-27",
     "date:inception_upper": "2022-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-27",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-06-27T02:52:24-07:00",
     "flysfo:actual_timestamp": 1656346680,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-06-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N469AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -84,9 +94,10 @@
       102533631,
       102527513,
       1159283813,
-      1763588157
+      1763588157,
+      1377564285
     ],
-    "wof:lastmodified": 1656433208,
+    "wof:lastmodified": 1656433861,
     "wof:name": "AS1208 (SFO-ORD)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

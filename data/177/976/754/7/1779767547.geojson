@@ -2,10 +2,12 @@
   "id": 1779767547,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-06-27",
+    "date:cessation_upper": "2022-06-27",
     "date:inception_lower": "2022-06-27",
     "date:inception_upper": "2022-06-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-06-27",
+    "edtf:cessation": "2022-06-27T06:42:43Z",
+    "edtf:inception": "2022-06-27T04:50:00Z",
     "flysfo:actual_timestamp": 1656314160,
     "flysfo:airline": "WS",
     "flysfo:date": "2022-06-27",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "27102577"
+    },
     "wof:country": "US",
     "wof:created": 1656432973,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -50,7 +55,7 @@
       1159285523,
       -1
     ],
-    "wof:lastmodified": 1656432973,
+    "wof:lastmodified": 1656433859,
     "wof:name": "WS8979 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
