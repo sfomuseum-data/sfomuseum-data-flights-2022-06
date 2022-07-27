@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1656187200,
     "flysfo:timestamp": 1656192180,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,37.617990,28.818113,40.981491",
-    "geom:latitude": 39.2997405,
-    "geom:longitude": -46.776415,
+    "geom:bbox": "-122.370943,37.617990,28.727778,41.262222",
+    "geom:latitude": 39.440106,
+    "geom:longitude": -46.8215825,
     "iata:airline": "TK",
     "icao:airline": "THY",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
     "sfomuseum:airline_id": 1159285391,
-    "sfomuseum:arrival_id": 102535819,
+    "sfomuseum:arrival_id": 1779770747,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220625-D-THY-290",
     "sfomuseum:flight_number": [
@@ -50,7 +50,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1656260753,
-    "wof:geomhash": "4dba37134e9e2a21e7ece9dd78d4a826",
+    "wof:geomhash": "a6a2bfb09ffab4e8f937cae1c7a9329e",
     "wof:hierarchy": [
       {
         "building_id": 1763588121,
@@ -86,7 +86,7 @@
       1159285391,
       1763588455
     ],
-    "wof:lastmodified": 1656260753,
+    "wof:lastmodified": 1658885260,
     "wof:name": "TK290 (SFO-IST)",
     "wof:parent_id": 1763588455,
     "wof:placetype": "custom",
@@ -98,8 +98,8 @@
   "bbox": [
     -122.370943,
     37.61799,
-    28.818113,
-    40.981491
+    28.727778,
+    41.262222
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[28.818113,40.981491]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[28.727778,41.262222]],"type":"MultiPoint"}
 }
