@@ -53,6 +53,7 @@
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
     "wof:hierarchy": [
       {
+        "custom_id": 1779762635,
         "flight_id": 1779762635
       }
     ],
@@ -63,11 +64,13 @@
       1159289939,
       102531205
     ],
-    "wof:lastmodified": 1656347518,
+    "wof:lastmodified": 1717040053,
     "wof:name": "DL8879 (SFO-MDW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -50,6 +50,7 @@
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
     "wof:hierarchy": [
       {
+        "custom_id": 1779579699,
         "flight_id": 1779579699
       }
     ],
@@ -60,11 +61,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1654191786,
+    "wof:lastmodified": 1717040047,
     "wof:name": "DL8920 (SFO-DTW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -40,6 +40,7 @@
     "wof:geomhash": "3be665ce6f24697b71b657073500f9bc",
     "wof:hierarchy": [
       {
+        "custom_id": 1779692307,
         "flight_id": 1779692307
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1655482530,
+    "wof:lastmodified": 1717040049,
     "wof:name": "UA2935 (IDA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

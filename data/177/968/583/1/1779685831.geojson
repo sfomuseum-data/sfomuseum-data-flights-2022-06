@@ -52,6 +52,7 @@
     "wof:geomhash": "e3c6a1a6f8d45a2660e783ca1e486101",
     "wof:hierarchy": [
       {
+        "custom_id": 1779685831,
         "flight_id": 1779685831
       }
     ],
@@ -62,11 +63,13 @@
       1394298249,
       102527513
     ],
-    "wof:lastmodified": 1655396961,
+    "wof:lastmodified": 1717040052,
     "wof:name": "UA2728 (ROW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

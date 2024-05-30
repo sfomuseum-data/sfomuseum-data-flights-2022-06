@@ -53,6 +53,7 @@
     "wof:geomhash": "b03e5f5c78933bb0f626aa81ed57f330",
     "wof:hierarchy": [
       {
+        "custom_id": 1779721395,
         "flight_id": 1779721395
       }
     ],
@@ -63,11 +64,13 @@
       1159284613,
       1159289985
     ],
-    "wof:lastmodified": 1655829033,
+    "wof:lastmodified": 1717040051,
     "wof:name": "KL184 (SFO-AMS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

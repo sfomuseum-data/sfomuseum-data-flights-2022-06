@@ -53,6 +53,7 @@
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
     "wof:hierarchy": [
       {
+        "custom_id": 1779706527,
         "flight_id": 1779706527
       }
     ],
@@ -63,11 +64,13 @@
       1159285413,
       1159292085
     ],
-    "wof:lastmodified": 1655656095,
+    "wof:lastmodified": 1717040055,
     "wof:name": "UA2749 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

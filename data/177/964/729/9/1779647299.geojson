@@ -52,6 +52,7 @@
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [
       {
+        "custom_id": 1779647299,
         "flight_id": 1779647299
       }
     ],
@@ -62,11 +63,13 @@
       1159285413,
       1159289871
     ],
-    "wof:lastmodified": 1654964946,
+    "wof:lastmodified": 1717040048,
     "wof:name": "UA2736 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -54,6 +54,7 @@
     "wof:geomhash": "95bd643fadb680ccccd4d1a4dfb3c584",
     "wof:hierarchy": [
       {
+        "custom_id": 1779624349,
         "flight_id": 1779624349
       }
     ],
@@ -64,11 +65,13 @@
       102526247,
       1159285413
     ],
-    "wof:lastmodified": 1654705741,
+    "wof:lastmodified": 1717040046,
     "wof:name": "UA2738 (COS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -54,6 +54,7 @@
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
     "wof:hierarchy": [
       {
+        "custom_id": 1779722457,
         "flight_id": 1779722457
       }
     ],
@@ -64,11 +65,13 @@
       1159285413,
       1159289871
     ],
-    "wof:lastmodified": 1655829042,
+    "wof:lastmodified": 1717040052,
     "wof:name": "UA8254 (SFO-DCA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

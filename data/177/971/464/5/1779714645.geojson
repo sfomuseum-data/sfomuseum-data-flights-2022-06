@@ -40,6 +40,7 @@
     "wof:geomhash": "2d236684e8bc29d45026e0f1300dce59",
     "wof:hierarchy": [
       {
+        "custom_id": 1779714645,
         "flight_id": 1779714645
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1655742160,
+    "wof:lastmodified": 1717040054,
     "wof:name": "DL8919 (SFO-BED)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

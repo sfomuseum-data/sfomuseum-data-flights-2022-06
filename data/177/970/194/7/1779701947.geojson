@@ -54,6 +54,7 @@
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
     "wof:hierarchy": [
       {
+        "custom_id": 1779701947,
         "flight_id": 1779701947
       }
     ],
@@ -64,11 +65,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1655569815,
+    "wof:lastmodified": 1717040051,
     "wof:name": "DL397 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

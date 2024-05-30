@@ -54,6 +54,7 @@
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
     "wof:hierarchy": [
       {
+        "custom_id": 1779604437,
         "flight_id": 1779604437
       }
     ],
@@ -64,11 +65,13 @@
       1159285413,
       1159289965
     ],
-    "wof:lastmodified": 1654446447,
+    "wof:lastmodified": 1717040047,
     "wof:name": "UA2747 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

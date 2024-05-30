@@ -53,6 +53,7 @@
     "wof:geomhash": "9151bfe07cf224e1ff61a7f7b8c30671",
     "wof:hierarchy": [
       {
+        "custom_id": 1779656537,
         "flight_id": 1779656537
       }
     ],
@@ -63,11 +64,13 @@
       1159289939,
       102525635
     ],
-    "wof:lastmodified": 1655051255,
+    "wof:lastmodified": 1717040048,
     "wof:name": "DL8850 (SFO-DTW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

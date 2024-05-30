@@ -51,6 +51,7 @@
     "wof:geomhash": "25f5345529d944df781e36098260a435",
     "wof:hierarchy": [
       {
+        "custom_id": 1779627727,
         "flight_id": 1779627727
       }
     ],
@@ -61,11 +62,13 @@
       1159285413,
       1159292085
     ],
-    "wof:lastmodified": 1654705751,
+    "wof:lastmodified": 1717040049,
     "wof:name": "UA8212 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -40,6 +40,7 @@
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
     "wof:hierarchy": [
       {
+        "custom_id": 1779595681,
         "flight_id": 1779595681
       }
     ],
@@ -50,11 +51,13 @@
       1159284153,
       -1
     ],
-    "wof:lastmodified": 1654359675,
+    "wof:lastmodified": 1717040047,
     "wof:name": "CI9999 (SFO-HKG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

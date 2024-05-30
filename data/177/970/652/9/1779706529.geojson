@@ -52,6 +52,7 @@
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
     "wof:hierarchy": [
       {
+        "custom_id": 1779706529,
         "flight_id": 1779706529
       }
     ],
@@ -62,11 +63,13 @@
       102532251,
       1159285413
     ],
-    "wof:lastmodified": 1655656095,
+    "wof:lastmodified": 1717040055,
     "wof:name": "UA2751 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

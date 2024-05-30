@@ -53,6 +53,7 @@
     "wof:geomhash": "9d5970fb497c224f692cb976d5929b90",
     "wof:hierarchy": [
       {
+        "custom_id": 1779734575,
         "flight_id": 1779734575
       }
     ],
@@ -63,11 +64,13 @@
       1159285591,
       1159289869
     ],
-    "wof:lastmodified": 1656001840,
+    "wof:lastmodified": 1717040054,
     "wof:name": "WN2367 (SFO-GEG)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

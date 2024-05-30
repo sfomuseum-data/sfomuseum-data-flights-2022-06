@@ -40,6 +40,7 @@
     "wof:geomhash": "4d7458fcd2bb2c2db9950abb8dd848d3",
     "wof:hierarchy": [
       {
+        "custom_id": 1779602943,
         "flight_id": 1779602943
       }
     ],
@@ -50,11 +51,13 @@
       1159283813,
       -1
     ],
-    "wof:lastmodified": 1654445961,
+    "wof:lastmodified": 1717040046,
     "wof:name": "AS9988 (SFO-PAE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

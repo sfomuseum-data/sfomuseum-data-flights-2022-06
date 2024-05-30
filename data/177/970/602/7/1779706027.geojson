@@ -48,6 +48,7 @@
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
     "wof:hierarchy": [
       {
+        "custom_id": 1779706027,
         "flight_id": 1779706027
       }
     ],
@@ -58,11 +59,13 @@
       1159289871,
       102527513
     ],
-    "wof:lastmodified": 1655656093,
+    "wof:lastmodified": 1717040055,
     "wof:name": "SY8723 (SLC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

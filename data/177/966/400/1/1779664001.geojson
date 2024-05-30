@@ -54,6 +54,7 @@
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
     "wof:hierarchy": [
       {
+        "custom_id": 1779664001,
         "flight_id": 1779664001
       }
     ],
@@ -64,11 +65,13 @@
       1159289939,
       102521851
     ],
-    "wof:lastmodified": 1655137777,
+    "wof:lastmodified": 1717040044,
     "wof:name": "DL8839 (SFO-AUS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

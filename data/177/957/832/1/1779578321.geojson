@@ -40,6 +40,7 @@
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
     "wof:hierarchy": [
       {
+        "custom_id": 1779578321,
         "flight_id": 1779578321
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1654186788,
+    "wof:lastmodified": 1717040046,
     "wof:name": "UA930 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []

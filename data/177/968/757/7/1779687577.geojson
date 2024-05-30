@@ -53,6 +53,7 @@
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
     "wof:hierarchy": [
       {
+        "custom_id": 1779687577,
         "flight_id": 1779687577
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1655396952,
+    "wof:lastmodified": 1717040053,
     "wof:name": "DL8886 (SFO-PIT)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-06",
     "wof:superseded_by": [],
     "wof:supersedes": []
